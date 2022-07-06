@@ -14,5 +14,6 @@ public class ReverseOfAString {
 			              
 		}
 		System.out.println(rname);
+		
 	}
 }
