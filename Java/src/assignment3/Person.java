@@ -2,12 +2,11 @@ package assignment3;
 
 public class Person 
 {
-	
-
-	public static void main(String[] args) 
+	String name;
+	int age;
+	Person(String name, int age)
 	{
-		// TODO Auto-generated method stub
-
+		this.name=name;
+		this.age=age;
 	}
-
 }
