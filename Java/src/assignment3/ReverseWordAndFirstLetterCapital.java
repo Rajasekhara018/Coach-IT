@@ -1,4 +1,4 @@
-package Assignment3;
+package assignment3;
 
 import java.util.Scanner;
 
@@ -17,12 +17,11 @@ public class ReverseWordAndFirstLetterCapital
 			for(int j=0; j<word.length(); j++)
 			{
 				char ch=word.charAt(j);
-				rword = ch+rword;
-				/*if(j==word.length())
+				if(j==word.length()-1)
 				{
-					ch=(word.charAt(j)).toUpperCase();
-					ch1=ch.toUppercase();
-				}*/
+					ch=Character.toUpperCase(word.charAt(j));//Special method implemented for converting the cases.
+				}
+				rword = ch+rword;
 			}
 			System.out.print(rword);
 		}
