@@ -1,7 +1,5 @@
 package pay.slip.generator;
-
 import java.util.ArrayList;
-
 public class Database 
 {
 		/*String empname1 = "Badam Rajasekhara Reddy";

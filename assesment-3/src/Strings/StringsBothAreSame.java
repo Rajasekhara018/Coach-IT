@@ -27,6 +27,6 @@ public class StringsBothAreSame
 	   {
 	   System.out.print("false");
 	  }
-	  }
+   }
 }
 
